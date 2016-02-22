@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My first Bootstrap website</title>
+<link href="css/bootstrap.css" rel="stylesheet" />
+<link href="css/my_styles.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+<header>
+
+<h1>LOGO</h1>
+
+</header>
+
+ <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">My First Bootstrap site</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li ><a href="index.html">Home</a></li>
+                <li class="active"><a href="about_us.html">About</a></li>
+                <li><a href="quote.html">Quote</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Home</a></li>
+                    
+                    <li class="dropdown-header">About Us</li>
+                    
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+</div>
+
+<div class="container">
+
+<ol class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About Us</a></li>
+  
+</ol>
+
+
+</div>
+ <div class="container"> 
+     <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">About Us.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+           <p><a class="btn btn-lg btn-primary" href="quote.html" role="button">Contact Us!</a></p>
+        </div>
+        <div class="col-md-5">
+          <img src="images/about_1.png" class="featurette-image img-responsive center-block" data-src="holder.js/500x300/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+      <hr>
+
+      <footer>
+        <p>&copy; 2016 Angelica Moreno.</p>
+      </footer>
+      </div> <!-- /container -->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

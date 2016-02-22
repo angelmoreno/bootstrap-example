@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My first Bootstrap website</title>
+<link href="css/bootstrap.css" rel="stylesheet" />
+<link href="css/my_styles.css" rel="stylesheet"/>
+<link href="css/form-elements.css" />
+
+</head>
+
+<body>
+<header>
+
+<h1>LOGO</h1>
+
+</header>
+
+ <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">My First Bootstrap site</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li ><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About</a></li>
+                <li class="active"><a href="quote.html">Quote</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Home</a></li>
+                    
+                    <li class="dropdown-header">About Us</li>
+                    
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+</div>
+<!--contaner-->
+<div class="container">
+
+<ol class="breadcrumb">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about_us.html">About Us</a></li>
+  <li class="active">Quote</li>
+</ol>
+
+
+</div>
+ <div class="container"> 
+ <div class="form-top-left">
+ <h3>Contact us now and get a quote!</h3>
+ <p>Fill in the form below to get instant access:</p>
+ </div>
+ <div class="form-top-right">
+ <i class="fa fa-pencil"></i>
+  </div>
+                          
+                            
+                            <!--Form-->
+                            <div class="form-bottom">
+			                    <form role="form" action="" method="post" class="registration-form">
+			                    	<div class="form-group">
+			                    		<label class="sr-only" for="form-first-name">First name</label>
+			                        	<input type="text" name="form-first-name" placeholder="First name..." class="form-first-name form-control" id="form-first-name">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-last-name">Last name</label>
+			                        	<input type="text" name="form-last-name" placeholder="Last name..." class="form-last-name form-control" id="form-last-name">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-email">Email</label>
+			                        	<input type="text" name="form-email" placeholder="Email..." class="form-email form-control" id="form-email">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-about-yourself">About your company...</label>
+			                        	<textarea name="form-about-yourself" placeholder="About yourself..." 
+			                        				class="form-about-yourself form-control" id="form-about-yourself"></textarea>
+			                        </div>
+			                        <button type="submit" class="btn btn-lg btn-primary">Get a quote!</button>
+			                    </form>
+		                    </div>
+                    
+            
+
+      
+      <hr>
+
+      <footer>
+        <p>&copy; 2016 Angelica Moreno.</p>
+      </footer>
+      
+      </div> <!-- /container -->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
